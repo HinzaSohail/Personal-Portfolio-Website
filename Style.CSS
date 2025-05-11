@@ -10,7 +10,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
-              url() no-repeat center center fixed;https://www.google.com/url?sa=i&url=https%3A%2F%2Fpikbest.com%2Fso%2Fportfolio-background.html&psig=AOvVaw1X8zLCxU1yYKEJvb1lRuWY&ust=1747031431794000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNjcoqLlmo0DFQAAAAAdAAAAABAE
+              url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fpikbest.com%2Fso%2Fportfolio-background.html&psig=AOvVaw1X8zLCxU1yYKEJvb1lRuWY&ust=1747031431794000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNjcoqLlmo0DFQAAAAAdAAAAABAE) no-repeat center center fixed;
   background-size: cover;
   color: #333;
   line-height: 1.6;
