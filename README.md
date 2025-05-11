@@ -97,6 +97,6 @@ anchor.addEventListener('click', function (e) {
 
 📬 Contact Information
 
-Email: hinza@example.com
+Email: sohailhinza601@gmail.com
 
-LinkedIn: linkedin.com/in/hinza
+LinkedIn: https://www.linkedin.com/in/hinza-sohail-b79672296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
