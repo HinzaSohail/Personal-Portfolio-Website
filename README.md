@@ -3,12 +3,6 @@
 Welcome to the official GitHub repository for my personal portfolio website!  
 This site highlights my academic background, skills, and projects as a Mathematics student and aspiring web developer.
 
-## Live Preview
-
-You can view the live portfolio [here](https://hinzasohail.github.io) (replace with your actual GitHub Pages link if hosted).
-
----
-
 ## About Me
 
 I'm *Hinza Sohail, a BS Mathematics student at **BZU Multan*, from Khanewal. With a passion for logic and structure, I combine mathematical reasoning with creativity in web development. This portfolio serves as both a personal introduction and a showcase of my growing skill set.
