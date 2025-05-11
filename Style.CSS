@@ -1,149 +1,105 @@
-/* General Reset */
+/* ----------------------------------------------------
+   Global Reset & Base Styles
+----------------------------------------------------- */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body and Font */
 body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  background-color: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+              url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b') no-repeat center center fixed;
+  background-size: cover;
   color: #333;
+  line-height: 1.6;
 }
 
-/* Navigation Bar */
-nav {
-  background-color: #333;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav .logo h1 {
-  color: #fff;
-  font-size: 1.8em;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-}
-
-nav ul li {
-  margin-left: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.1em;
-}
-
-nav ul li a:hover {
-  color: #4CAF50;
-  transition: color 0.3s;
-}
-
-/* Header */
+/* ----------------------------------------------------
+   Header
+----------------------------------------------------- */
 header {
-  background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
-  height: 60vh;
+  background-color: #6a4c93;
   color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 60px 20px;
   text-align: center;
-  padding: 20px;
 }
 
 header h1 {
-  font-size: 3em;
+  font-size: 3.2rem;
   margin-bottom: 10px;
 }
 
 header p {
-  font-size: 1.3em;
+  font-size: 1.3rem;
+  font-weight: 300;
 }
 
-/* About Section */
-#about {
-  padding: 40px 20px;
+/* ----------------------------------------------------
+   Sections
+----------------------------------------------------- */
+section {
   background-color: #fff;
-  text-align: center;
+  margin: 40px auto;
+  padding: 40px;
+  max-width: 900px;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-#about h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
+section:hover {
+  transform: scale(1.01);
 }
 
-/* Projects Section */
-#projects {
-  padding: 40px 20px;
-  background-color: #f4f4f4;
-  text-align: center;
+h2 {
+  font-size: 1.8rem;
+  color: #6a4c93;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 8px;
 }
 
-#projects h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 20px;
-}
-
-.project-card {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.project-card h3 {
-  font-size: 1.8em;
-}
-
-.project-card p {
-  font-size: 1.1em;
-}
-
-/* Contact Section */
-#contact {
-  padding: 40px 20px;
-  text-align: center;
-  background-color: #fff;
-}
-
-#contact h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-#contact ul {
+/* ----------------------------------------------------
+   Lists & Links
+----------------------------------------------------- */
+ul {
   list-style: none;
   padding: 0;
 }
 
-#contact ul li {
-  font-size: 1.2em;
-  margin-bottom: 10px;
+li {
+  margin: 12px 0;
+  font-size: 1.05rem;
 }
 
-/* Footer */
+a {
+  color: #6a4c93;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ----------------------------------------------------
+   Icons
+----------------------------------------------------- */
+.icon {
+  margin-right: 10px;
+  color: #6a4c93;
+}
+
+/* ----------------------------------------------------
+   Footer
+----------------------------------------------------- */
 footer {
   text-align: center;
-  padding: 10px 0;
-  background-color: #333;
-  color: #fff;
-}
-
-/* Smooth Scrolling */
-html {
-  scroll-behavior: smooth;
+  background-color: #f4f4f4;
+  padding: 25px;
+  font-size: 0.95rem;
+  color: #555;
 }
